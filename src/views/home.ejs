@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="./style.css">
+   <body>
+    <audio id="player" src="<%- locals.url %>"></audio>
+    <div class="player">
+      <div id="playbtn" class="control">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M7 6v12l10-6z"></path></svg>
+      </div>
+      <div class="info">
+        <h4 id="title"></h4>
+        <div class="bar">
+          <div id="progress"></div>
+        </div>
+      </div>
+
+      <div id="current">0:00</div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
