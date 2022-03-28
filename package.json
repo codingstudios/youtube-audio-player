@@ -1,0 +1,31 @@
+{
+  "name": "youtube-audio-player",
+  "version": "1.0.0",
+  "description": "Play audio from YouTube",
+  "main": "index.js",
+  "directories": {
+    "src": "src",
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingstudios/youtube-audio-player.git"
+  },
+  "keywords": [
+    "audio",
+    "youtube",
+    "expressjs",
+    "ytdl-core"
+  ],
+  "author": "CodingStudios <tojoeleeofficial@gmail.com> (https://studios.js.org)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    
+  },
+  "bugs": {
+    "url": "https://github.com/botstudios/youtube-audio-player/issues"
+  },
+  "homepage": "https://github.com/codingstudios/youtube-audio-player"
+}
